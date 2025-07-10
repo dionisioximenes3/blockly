@@ -4,10 +4,12 @@
     <meta charset="utf-8" />
     <title>Blockly Dionísio</title>
 
-    <script type="module">
+    <script type="module"> 
       import {COMPRESSED, loadScript} from './scripts/load.mjs';
 
-      import * as Blockly from '../build/blockly.loader.mjs';
+     // import * as Blockly from '../build/blockly.loader.mjs';
+      import * as Blockly from '/blockly/build/blockly.loader.mjs';
+
       import '../build/blocks.loader.mjs';
       import {dartGenerator} from '../build/dart.loader.mjs';
       import {luaGenerator} from '../build/lua.loader.mjs';
